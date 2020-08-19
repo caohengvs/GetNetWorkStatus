@@ -1,0 +1,7 @@
+﻿  pch.cpp
+  CLySystemStatus.cpp
+  dllmain.cpp
+  ILySystemStatus.cpp
+  正在生成代码...
+    正在创建库 D:\source\repos\GetNetWorkStatus\x64\Debug\LySysStatus.lib 和对象 D:\source\repos\GetNetWorkStatus\x64\Debug\LySysStatus.exp
+  LySysStatus.vcxproj -> D:\source\repos\GetNetWorkStatus\x64\Debug\LySysStatus.dll

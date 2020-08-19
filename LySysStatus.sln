@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LySysStatus", "LySysStatus\LySysStatus.vcxproj", "{78434E2F-0AB0-4A15-B3F4-2D13AEA476A0}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestSysStatus", "TestSysStatus\TestSysStatus.vcxproj", "{9AB4E949-1D44-411F-8FAC-48BA533CFC80}"
+	ProjectSection(ProjectDependencies) = postProject
+		{78434E2F-0AB0-4A15-B3F4-2D13AEA476A0} = {78434E2F-0AB0-4A15-B3F4-2D13AEA476A0}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
