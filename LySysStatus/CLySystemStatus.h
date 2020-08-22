@@ -1,6 +1,5 @@
 #pragma once
 #include"ILySystemStatus.h"
-#include"EnumDefine.h"
 class CLySystemStatus :
     public ILySystemStatus
 {
@@ -14,11 +13,10 @@ private:
     virtual void GetNetworkInfo();
 
 private:
-    bool m_bType1 ;
-    bool m_bType2 ;
-
+    bool m_bType1; //保存是否为有有线网络连接
+    bool m_bType2;
 public:
-    virtual ELyNetworkType GetNetWorkType() override;
-    
+    virtual bool GetNetWorkType() override;
+
 };
 

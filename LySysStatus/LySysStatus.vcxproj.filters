@@ -33,7 +33,7 @@
     <ClInclude Include="NetworkHeader.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="EnumDefine.h">
+    <ClInclude Include="ILyWirelessNetwork.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
@@ -48,6 +48,9 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="CLySystemStatus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="ILyWirelessNetwork.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

@@ -5,20 +5,12 @@ int main()
 {
     ILySystemStatus* m_pStatus = ILySystemStatus::s_GetInstance();
 
-    switch (m_pStatus->GetNetWorkType())
+    if(m_pStatus->GetNetWorkType())
     {
-    case NETWORK_ETHERNET:
-        cout << "有线网络" << endl;
-        break;
-    case NETWORK_WIFI:
-        cout << "无线网络" << endl;
-        break;
-    case NETWORK_ALL:
-        cout << "all" << endl;
-        break;
-    default:
-        cout << "未知" << endl;
-        break;
+        
+   
+        cout << "更新状态" << endl;
+
 
     }
     if (m_pStatus)

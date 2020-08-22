@@ -152,10 +152,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClInclude Include="CLySystemStatus.h" />
-    <ClInclude Include="EnumDefine.h" />
     <ClInclude Include="ExportDefine.h" />
     <ClInclude Include="framework.h" />
     <ClInclude Include="ILySystemStatus.h" />
+    <ClInclude Include="ILyWirelessNetwork.h" />
     <ClInclude Include="NetworkHeader.h" />
     <ClInclude Include="pch.h" />
   </ItemGroup>
@@ -163,6 +163,7 @@
     <ClCompile Include="CLySystemStatus.cpp" />
     <ClCompile Include="dllmain.cpp" />
     <ClCompile Include="ILySystemStatus.cpp" />
+    <ClCompile Include="ILyWirelessNetwork.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

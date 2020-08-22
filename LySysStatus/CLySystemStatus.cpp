@@ -81,25 +81,9 @@ void CLySystemStatus::GetNetworkInfo()
     }
 }
 
-ELyNetworkType CLySystemStatus::GetNetWorkType()
+bool CLySystemStatus::GetNetWorkType()
 {
     GetNetworkInfo();
-    if (m_bType1 && m_bType2)
-    {
-        return NETWORK_ALL;
-    }
-    else if (m_bType1 && (!m_bType2))
-    {
-        return NETWORK_ETHERNET;
-    }
-    else if ((!m_bType1) && m_bType2)
-    {
-        return NETWORK_WIFI;
-    }
-    else
-    {
-        return NETWORK_UNKOWN;
-    }
-
+    return m_bType1;
 }
 
